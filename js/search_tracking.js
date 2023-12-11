@@ -1,0 +1,1 @@
+!function(a){a("#search form").submit((function(t){var e;t.preventDefault(),t=a("input[name=searcharea]:checked","#search form").val();var r=a("#q").val(),c=this;try{e={category:"library search",action:t.trim(),label:r.trim()},bu_ga_track_event(e)}catch(a){}setTimeout((function(){c.submit()}),150)}))}(jQuery);

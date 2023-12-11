@@ -1,0 +1,13 @@
+/* print styles for bu.edu/library */
+
+#pnb, #footer, #search, .page_hdr, #guide-jump-nav {display:none;}
+#content {border-color:#fff !important; background-color:#fff !important;box-shadow: 0 0 0px #ffffff !important;}
+.main, .sidebar { background:none !important;}
+body, html, #content, #page, @page, .wrapper, .main { margin:0px !important; padding:0px !important; box-shadow: none !important; background: none !important; color: #000000 !important;}
+.page_hdr, #content, #lib-guide{border:none !important; background:none !important;}
+#header {margin:0px !important; padding:0px !important; border:0px !important;}
+a:link, .widget li a, bu-lib-resource .title a, h2.widgettitle a, body#lib-guide h5 a, a:link, a:visited {color:#277390; text-decoration: underline;}
+p, ul, ul li, li, .library, .main ul li, .bu-lib-resource .title, .description, .widget li, ul li, .note {color:#000000 !important;}
+#scroller {position:relative !important; background:none !important; }
+.wrapper {border:none !important; padding-left:0px !important; margin-left:0px !important;}
+h1#masthead {margin-left:5px !important;}
